@@ -1,5 +1,5 @@
 QBCore = nil
-
+local QBCore = exports['qb-core']:GetCoreObject()
 TriggerEvent('QBCore:GetObject', function(obj) QBCore = obj end)
 
 local hiddenprocess = vector3(2431.57,4971.2,42.35) -- Change this to whatever location you want. This is server side to prevent people from dumping the coords
